@@ -23,8 +23,7 @@ convertPrice(Price, Currency) ->
     usd -> Price
   end.
 
-getCarList() ->
-  ["BMW i8", "Laborghini Huracan", "Ferrari f12"].
+getCarList() ->   ["BMW i8", "Laborghini Huracan", "Ferrari f12"].
 
 getCarMap() ->
   #{"BMW i8" => 150000, "Laborghini Huracan" => 500000, "Ferrari f12" => 700000}.
